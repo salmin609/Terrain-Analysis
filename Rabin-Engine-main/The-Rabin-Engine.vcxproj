@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <RootNamespace>AI_Framework</RootNamespace>
+    <ProjectGuid>{8068339e-5e86-450a-8092-d7322835c633}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>The-Rabin-Engine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions);</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Source\Framework;$(ProjectDir)\Include;$(ProjectDir)\Source\Framework\BehaviorTrees</AdditionalIncludeDirectories>
+      <StringPooling>true</StringPooling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;dxguid.lib;uuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;odbc32.lib;odbccp32.lib;DWrite.lib;d2d1.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions);</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Source\Framework;$(ProjectDir)\Include;$(ProjectDir)\Source\Framework\BehaviorTrees</AdditionalIncludeDirectories>
+      <StringPooling>true</StringPooling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;dxguid.lib;uuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;odbc32.lib;odbccp32.lib;DWrite.lib;d2d1.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Source\Framework;$(ProjectDir)\Include;$(ProjectDir)\Source\Framework\BehaviorTrees</AdditionalIncludeDirectories>
+      <StringPooling>true</StringPooling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d11.lib;dxguid.lib;uuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;odbc32.lib;odbccp32.lib;DWrite.lib;d2d1.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Source\Framework;$(ProjectDir)\Include;$(ProjectDir)\Source\Framework\BehaviorTrees</AdditionalIncludeDirectories>
+      <StringPooling>true</StringPooling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d11.lib;dxguid.lib;uuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;odbc32.lib;odbccp32.lib;DWrite.lib;d2d1.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Framework\Agent\Agent.h" />
+    <ClInclude Include="Source\Framework\Agent\AgentOrganizer.h" />
+    <ClInclude Include="Source\Framework\Agent\BehaviorAgent.h" />
+    <ClInclude Include="Source\Framework\Agent\CameraAgent.h" />
+    <ClInclude Include="Source\Framework\Agent\AStarAgent.h" />
+    <ClInclude Include="Source\Framework\Agent\EnemyAgent.h" />
+    <ClInclude Include="Source\Framework\BehaviorTrees\BehaviorTreeBuilder.h" />
+    <ClInclude Include="Source\Framework\BehaviorTrees\BehaviorTreePrototype.h" />
+    <ClInclude Include="Source\Framework\BehaviorTrees\Blackboard.h" />
+    <ClInclude Include="Source\Framework\BehaviorTrees\BehaviorNode.h" />
+    <ClInclude Include="Source\Framework\BehaviorTrees\BehaviorTree.h" />
+    <ClInclude Include="Source\Framework\BehaviorTrees\NodeInfo.h" />
+    <ClInclude Include="Source\Framework\BehaviorTrees\TreeInfo.h" />
+    <ClInclude Include="Source\Framework\Core\Engine.h" />
+    <ClInclude Include="Source\Framework\Core\Messages.h" />
+    <ClInclude Include="Source\Framework\Core\Messenger.h" />
+    <ClInclude Include="Source\Framework\Core\Serialization.h" />
+    <ClInclude Include="Source\Framework\Core\StepTimer.h" />
+    <ClInclude Include="Source\Framework\Global.h" />
+    <ClInclude Include="Source\Framework\Input\InputHandler.h" />
+    <ClInclude Include="Source\Framework\Input\KeyboardKeys.h" />
+    <ClInclude Include="Source\Framework\Input\MouseButtons.h" />
+    <ClInclude Include="Source\Framework\Misc\Murmur2Hash.h" />
+    <ClInclude Include="Source\Framework\Misc\NiceTypes.h" />
+    <ClInclude Include="Source\Framework\Misc\PathfindingDetails.hpp" />
+    <ClInclude Include="Source\Framework\Misc\RNG.h" />
+    <ClInclude Include="Source\Framework\Misc\Stopwatch.h" />
+    <ClInclude Include="Source\Framework\Misc\TimeTracker.h" />
+    <ClInclude Include="Source\Framework\pch.h" />
+    <ClInclude Include="Source\Framework\Projects\Project.h" />
+    <ClInclude Include="Source\Framework\Projects\ProjectOne.h" />
+    <ClInclude Include="Source\Framework\Projects\ProjectThree.h" />
+    <ClInclude Include="Source\Framework\Projects\ProjectTwo.h" />
+    <ClInclude Include="Source\Framework\Projects\Testing\PathingTestCase.h" />
+    <ClInclude Include="Source\Framework\Projects\Testing\PathingTestData.h" />
+    <ClInclude Include="Source\Framework\Projects\Testing\PathingTester.h" />
+    <ClInclude Include="Source\Framework\Projects\Testing\PathingTestResult.h" />
+    <ClInclude Include="Source\Framework\Rendering\DebugRenderer.h" />
+    <ClInclude Include="Source\Framework\Rendering\DeviceResources.h" />
+    <ClInclude Include="Source\Framework\Rendering\MeshRenderer.h" />
+    <ClInclude Include="Source\Framework\Rendering\ReadShader.h" />
+    <ClInclude Include="Source\Framework\Rendering\SimpleRenderer.h" />
+    <ClInclude Include="Source\Framework\Rendering\TextRenderer.h" />
+    <ClInclude Include="Source\Framework\Rendering\UISpriteRenderer.h" />
+    <ClInclude Include="Source\Framework\Terrain\MapLayer.h" />
+    <ClInclude Include="Source\Framework\Terrain\MapMath.h" />
+    <ClInclude Include="Source\Framework\Terrain\Terrain.h" />
+    <ClInclude Include="Source\Framework\Terrain\TerrainAnalysis.h" />
+    <ClInclude Include="Source\Framework\UI\Elements\Buttons\UIButton.h" />
+    <ClInclude Include="Source\Framework\UI\Elements\Buttons\UIConditionalButton.h" />
+    <ClInclude Include="Source\Framework\UI\Elements\Buttons\UIDynamicButton.h" />
+    <ClInclude Include="Source\Framework\UI\Elements\Buttons\UIToggleButton.h" />
+    <ClInclude Include="Source\Framework\UI\Elements\Sliders\UISlider.h" />
+    <ClInclude Include="Source\Framework\UI\Elements\Text\UIBannerTextField.h" />
+    <ClInclude Include="Source\Framework\UI\Elements\Text\UIBehaviorTreeTextField.h" />
+    <ClInclude Include="Source\Framework\UI\Elements\Text\UIDynamicBannerTextField.h" />
+    <ClInclude Include="Source\Framework\UI\Elements\Text\UIDynamicTextField.h" />
+    <ClInclude Include="Source\Framework\UI\Elements\Text\UIValueTextField.h" />
+    <ClInclude Include="Source\Framework\UI\Elements\Text\UITextField.h" />
+    <ClInclude Include="Source\Framework\UI\Elements\UIElement.h" />
+    <ClInclude Include="Source\Framework\UI\UIAnchor.h" />
+    <ClInclude Include="Source\Framework\UI\UIBoundingBox.h" />
+    <ClInclude Include="Source\Framework\UI\UIColorHighlighter.h" />
+    <ClInclude Include="Source\Framework\UI\UIColors.h" />
+    <ClInclude Include="Source\Framework\UI\UICoordinator.h" />
+    <ClInclude Include="Source\Framework\UI\UITextObject.h" />
+    <ClInclude Include="Source\Student\Project_1\ControlFlow\C_CheckDistance.h" />
+    <ClInclude Include="Source\Student\Project_1\ControlFlow\C_LeftFirst.h" />
+    <ClInclude Include="Source\Student\Project_1\ControlFlow\C_ParallelSequencer.h" />
+    <ClInclude Include="Source\Student\Project_1\ControlFlow\C_RandomSelector.h" />
+    <ClInclude Include="Source\Student\Project_1\ControlFlow\C_Selector.h" />
+    <ClInclude Include="Source\Student\Project_1\ControlFlow\C_Sequencer.h" />
+    <ClInclude Include="Source\Student\Project_1\Decorator\D_Delay.h" />
+    <ClInclude Include="Source\Student\Project_1\Decorator\D_InvertedRepeater.h" />
+    <ClInclude Include="Source\Student\Project_1\Decorator\D_RepeatFourTimes.h" />
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_AvoidFromEnemy.h" />
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_ChaseAnimal.h" />
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_ChaseSurvivor.h" />
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_ChaseZombie.h" />
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_CheckMouseClick.h" />
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_Idle.h" />
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_KillerIncreaseBodysize.h" />
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_MoveToFurthestAgent.h" />
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_MoveToMouseClick.h" />
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_MoveToRandomPosition.h" />
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_SpawnNewZombie.h" />
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_SurvivorCollisionCheck.h" />
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_Zombie2Patrol.h" />
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_ZombieCollisionCheck.h" />
+    <ClInclude Include="Source\Student\Project_1\NodeHeaders.h" />
+    <ClInclude Include="Source\Student\Project_2\P2_Pathfinding.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Framework\Agent\Agent.cpp" />
+    <ClCompile Include="Source\Framework\Agent\AgentOrganizer.cpp" />
+    <ClCompile Include="Source\Framework\Agent\BehaviorAgent.cpp" />
+    <ClCompile Include="Source\Framework\Agent\CameraAgent.cpp" />
+    <ClCompile Include="Source\Framework\Agent\AStarAgent.cpp" />
+    <ClCompile Include="Source\Framework\Agent\EnemyAgent.cpp" />
+    <ClCompile Include="Source\Framework\BehaviorTrees\BehaviorNode.cpp" />
+    <ClCompile Include="Source\Framework\BehaviorTrees\BehaviorTree.cpp" />
+    <ClCompile Include="Source\Framework\BehaviorTrees\BehaviorTreeBuilder.cpp" />
+    <ClCompile Include="Source\Framework\BehaviorTrees\BehaviorTreePrototype.cpp" />
+    <ClCompile Include="Source\Framework\BehaviorTrees\NodeInfo.cpp" />
+    <ClCompile Include="Source\Framework\BehaviorTrees\TreeInfo.cpp" />
+    <ClCompile Include="Source\Framework\Core\Engine.cpp" />
+    <ClCompile Include="Source\Framework\Core\Messenger.cpp" />
+    <ClCompile Include="Source\Framework\Core\Serialization.cpp" />
+    <ClCompile Include="Source\Framework\Input\InputHandler.cpp" />
+    <ClCompile Include="Source\Framework\Input\KeyboardKeys.cpp" />
+    <ClCompile Include="Source\Framework\Input\MouseButtons.cpp" />
+    <ClCompile Include="Source\Framework\Main.cpp" />
+    <ClCompile Include="Source\Framework\Misc\Murmur2Hash.cpp" />
+    <ClCompile Include="Source\Framework\Misc\PathfindingDetails.cpp" />
+    <ClCompile Include="Source\Framework\Misc\RNG.cpp" />
+    <ClCompile Include="Source\Framework\Misc\Stopwatch.cpp" />
+    <ClCompile Include="Source\Framework\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Projects\Project.cpp" />
+    <ClCompile Include="Source\Framework\Projects\ProjectOne.cpp" />
+    <ClCompile Include="Source\Framework\Projects\ProjectThree.cpp" />
+    <ClCompile Include="Source\Framework\Projects\ProjectTwo.cpp" />
+    <ClCompile Include="Source\Framework\Projects\Testing\PathingTestCase.cpp" />
+    <ClCompile Include="Source\Framework\Projects\Testing\PathingTestData.cpp" />
+    <ClCompile Include="Source\Framework\Projects\Testing\PathingTester.cpp" />
+    <ClCompile Include="Source\Framework\Projects\Testing\PathingTestResult.cpp" />
+    <ClCompile Include="Source\Framework\Rendering\DebugRenderer.cpp" />
+    <ClCompile Include="Source\Framework\Rendering\DeviceResources.cpp" />
+    <ClCompile Include="Source\Framework\Rendering\MeshRenderer.cpp" />
+    <ClCompile Include="Source\Framework\Rendering\ReadShader.cpp" />
+    <ClCompile Include="Source\Framework\Rendering\SimpleRenderer.cpp" />
+    <ClCompile Include="Source\Framework\Rendering\TextRenderer.cpp" />
+    <ClCompile Include="Source\Framework\Rendering\UISpriteRenderer.cpp" />
+    <ClCompile Include="Source\Framework\Terrain\MapMath.cpp" />
+    <ClCompile Include="Source\Framework\Terrain\Terrain.cpp" />
+    <ClCompile Include="Source\Framework\UI\Elements\Buttons\UIButton.cpp" />
+    <ClCompile Include="Source\Framework\UI\Elements\Buttons\UIConditionalButton.cpp" />
+    <ClCompile Include="Source\Framework\UI\Elements\Buttons\UIDynamicButton.cpp" />
+    <ClCompile Include="Source\Framework\UI\Elements\Buttons\UIToggleButton.cpp" />
+    <ClCompile Include="Source\Framework\UI\Elements\Text\UIBannerTextField.cpp" />
+    <ClCompile Include="Source\Framework\UI\Elements\Text\UIBehaviorTreeTextField.cpp" />
+    <ClCompile Include="Source\Framework\UI\Elements\Text\UIDynamicBannerTextField.cpp" />
+    <ClCompile Include="Source\Framework\UI\Elements\Text\UIDynamicTextField.cpp" />
+    <ClCompile Include="Source\Framework\UI\Elements\Text\UIValueTextField.cpp" />
+    <ClCompile Include="Source\Framework\UI\Elements\Text\UITextField.cpp" />
+    <ClCompile Include="Source\Framework\UI\Elements\UIElement.cpp" />
+    <ClCompile Include="Source\Framework\UI\UIBoundingBox.cpp" />
+    <ClCompile Include="Source\Framework\UI\UIColorHighlighter.cpp" />
+    <ClCompile Include="Source\Framework\UI\UIColors.cpp" />
+    <ClCompile Include="Source\Framework\UI\UICoordinator.cpp" />
+    <ClCompile Include="Source\Framework\UI\UITextObject.cpp" />
+    <ClCompile Include="Source\Student\Project_1\ControlFlow\C_CheckDistance.cpp" />
+    <ClCompile Include="Source\Student\Project_1\ControlFlow\C_LeftFirst.cpp" />
+    <ClCompile Include="Source\Student\Project_1\ControlFlow\C_ParallelSequencer.cpp" />
+    <ClCompile Include="Source\Student\Project_1\ControlFlow\C_RandomSelector.cpp" />
+    <ClCompile Include="Source\Student\Project_1\ControlFlow\C_Selector.cpp" />
+    <ClCompile Include="Source\Student\Project_1\ControlFlow\C_Sequencer.cpp" />
+    <ClCompile Include="Source\Student\Project_1\Decorator\D_Delay.cpp" />
+    <ClCompile Include="Source\Student\Project_1\Decorator\D_InvertedRepeater.cpp" />
+    <ClCompile Include="Source\Student\Project_1\Decorator\D_RepeatFourTimes.cpp" />
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_AvoidFromEnemy.cpp" />
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_ChaseAnimal.cpp" />
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_ChaseSurvivor.cpp" />
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_ChaseZombie.cpp" />
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_CheckMouseClick.cpp" />
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_Idle.cpp" />
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_KillerIncreaseBodysize.cpp" />
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_MoveToFurthestAgent.cpp" />
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_MoveToMouseClick.cpp" />
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_MoveToRandomPosition.cpp" />
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_SpawnNewZombie.cpp" />
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_SurvivorCollisionCheck.cpp" />
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_Zombie2Patrol.cpp" />
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_ZombieCollisionCheck.cpp" />
+    <ClCompile Include="Source\Student\Project_1\Setup.cpp" />
+    <ClCompile Include="Source\Student\Project_2\P2_Pathfinding.cpp" />
+    <ClCompile Include="Source\Student\Project_3\P3_TerrainAnalysis.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\button.DDS" />
+    <Image Include="Assets\grid_cell.dds" />
+    <Image Include="Assets\slider_bar.DDS" />
+    <Image Include="Assets\slider_knob.DDS" />
+    <Image Include="directx.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\mannequin_rig.sdkmesh" />
+    <None Include="packages.config" />
+    <None Include="Source\Student\Project_1\Nodes.def">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Source\Student\Project_1\Trees.def">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Source\Framework\Rendering\GridCellPixelShader.hlsl">
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">GCPSMain</EntryPointName>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <AllResourcesBound Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</AllResourcesBound>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">GCPSMain</EntryPointName>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <AllResourcesBound Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</AllResourcesBound>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GCPSMain</EntryPointName>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <AllResourcesBound Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</AllResourcesBound>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GCPSMain</EntryPointName>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <AllResourcesBound Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</AllResourcesBound>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\\Assets\\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\\Assets\\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\\Assets\\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\\Assets\\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Source\Framework\Rendering\GridCellVertexShader.hlsl">
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">GCVSMain</EntryPointName>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <AllResourcesBound Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</AllResourcesBound>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">GCVSMain</EntryPointName>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <AllResourcesBound Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</AllResourcesBound>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GCVSMain</EntryPointName>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <AllResourcesBound Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</AllResourcesBound>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GCVSMain</EntryPointName>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <AllResourcesBound Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</AllResourcesBound>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\\Assets\\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\\Assets\\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\\Assets\\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\\Assets\\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\directxtk_desktop_2015.2019.12.17.1\build\native\directxtk_desktop_2015.targets" Condition="Exists('packages\directxtk_desktop_2015.2019.12.17.1\build\native\directxtk_desktop_2015.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\directxtk_desktop_2015.2019.12.17.1\build\native\directxtk_desktop_2015.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\directxtk_desktop_2015.2019.12.17.1\build\native\directxtk_desktop_2015.targets'))" />
+  </Target>
+</Project>

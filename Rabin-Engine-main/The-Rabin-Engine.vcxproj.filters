@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>9e6a2aa1-5584-400b-a64d-18017ed7bc43</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{38342b5e-a89e-4ef1-9720-64998b150abd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework">
+      <UniqueIdentifier>{e8aecc68-8f7e-41af-8572-674a8bdca5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Student">
+      <UniqueIdentifier>{00922a22-d64c-4bb5-a6e0-026f76ab6f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Agent">
+      <UniqueIdentifier>{13956118-09e6-4387-b4fb-ad187b4b057f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Terrain">
+      <UniqueIdentifier>{b17a465f-6c09-4c89-8c00-23a3f42fbd91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Misc">
+      <UniqueIdentifier>{b3681507-e99a-4474-b0cf-80483728f7ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Rendering">
+      <UniqueIdentifier>{54be0b68-1274-421b-b4c2-26c53460f156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Projects">
+      <UniqueIdentifier>{0b2d35a9-a92b-4807-a18b-03333ff07206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\UI">
+      <UniqueIdentifier>{ba7da9b1-9877-4675-9c9d-386e2290f092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Core">
+      <UniqueIdentifier>{dc150e27-22f6-43a0-bc3a-37a9cd459209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Input">
+      <UniqueIdentifier>{d9b63797-b44a-41d2-add7-ddf2f8c57082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\UI\Elements">
+      <UniqueIdentifier>{857d5ffa-c03a-4649-aed6-790110d47223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\UI\Elements\Text">
+      <UniqueIdentifier>{1c3871a6-9e7f-4604-99cb-d64a69fc06fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\UI\Elements\Buttons">
+      <UniqueIdentifier>{dd346e61-4143-4db3-9fae-9775c2ee9bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\UI\Elements\Sliders">
+      <UniqueIdentifier>{dde29b00-91eb-4682-871b-9502e11a971d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Student\Project_1">
+      <UniqueIdentifier>{1851961f-cbc4-40c2-a04f-7f7dfe242d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Student\Project_2">
+      <UniqueIdentifier>{8fec7775-0500-4cb5-a889-d86ec5d1ec85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Student\Project_3">
+      <UniqueIdentifier>{8959aaab-be4e-4650-85ce-e53167f576e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Projects\Testing">
+      <UniqueIdentifier>{20e105c3-72e2-4453-82cf-331257a0f856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Student\Project_1\ControlFlow">
+      <UniqueIdentifier>{4cb2adf5-7704-4f10-91a8-c0c01b0c51ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Student\Project_1\Decorator">
+      <UniqueIdentifier>{b5940e9f-7db3-4945-b216-f95253c6ffcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Student\Project_1\Leaf">
+      <UniqueIdentifier>{0b84721d-f9a3-4c9c-9355-a55fbd2d6909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\BehaviorTrees">
+      <UniqueIdentifier>{8b9856ae-2a38-48a7-8728-801b19ef692c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Framework\pch.h">
+      <Filter>Source\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Agent\Agent.h">
+      <Filter>Source\Framework\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Agent\AgentOrganizer.h">
+      <Filter>Source\Framework\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Terrain\MapMath.h">
+      <Filter>Source\Framework\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Terrain\Terrain.h">
+      <Filter>Source\Framework\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Terrain\TerrainAnalysis.h">
+      <Filter>Source\Framework\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Misc\Murmur2Hash.h">
+      <Filter>Source\Framework\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Misc\NiceTypes.h">
+      <Filter>Source\Framework\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Rendering\SimpleRenderer.h">
+      <Filter>Source\Framework\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Global.h">
+      <Filter>Source\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Agent\CameraAgent.h">
+      <Filter>Source\Framework\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Agent\BehaviorAgent.h">
+      <Filter>Source\Framework\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Rendering\DeviceResources.h">
+      <Filter>Source\Framework\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Rendering\ReadShader.h">
+      <Filter>Source\Framework\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Terrain\MapLayer.h">
+      <Filter>Source\Framework\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Projects\Project.h">
+      <Filter>Source\Framework\Projects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Projects\ProjectOne.h">
+      <Filter>Source\Framework\Projects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Projects\ProjectThree.h">
+      <Filter>Source\Framework\Projects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Projects\ProjectTwo.h">
+      <Filter>Source\Framework\Projects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Misc\PathfindingDetails.hpp">
+      <Filter>Source\Framework\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Agent\AStarAgent.h">
+      <Filter>Source\Framework\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\UI\UICoordinator.h">
+      <Filter>Source\Framework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\UI\UIAnchor.h">
+      <Filter>Source\Framework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Rendering\TextRenderer.h">
+      <Filter>Source\Framework\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Core\Engine.h">
+      <Filter>Source\Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Core\StepTimer.h">
+      <Filter>Source\Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Rendering\UISpriteRenderer.h">
+      <Filter>Source\Framework\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\UI\UITextObject.h">
+      <Filter>Source\Framework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\UI\UIBoundingBox.h">
+      <Filter>Source\Framework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Rendering\DebugRenderer.h">
+      <Filter>Source\Framework\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Rendering\MeshRenderer.h">
+      <Filter>Source\Framework\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Misc\Stopwatch.h">
+      <Filter>Source\Framework\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Core\Messages.h">
+      <Filter>Source\Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Core\Messenger.h">
+      <Filter>Source\Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Misc\TimeTracker.h">
+      <Filter>Source\Framework\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\UI\UIColorHighlighter.h">
+      <Filter>Source\Framework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Input\KeyboardKeys.h">
+      <Filter>Source\Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Input\MouseButtons.h">
+      <Filter>Source\Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Input\InputHandler.h">
+      <Filter>Source\Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\UI\UIColors.h">
+      <Filter>Source\Framework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\UI\Elements\UIElement.h">
+      <Filter>Source\Framework\UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\UI\Elements\Buttons\UIButton.h">
+      <Filter>Source\Framework\UI\Elements\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\UI\Elements\Buttons\UIToggleButton.h">
+      <Filter>Source\Framework\UI\Elements\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\UI\Elements\Sliders\UISlider.h">
+      <Filter>Source\Framework\UI\Elements\Sliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\UI\Elements\Text\UITextField.h">
+      <Filter>Source\Framework\UI\Elements\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\UI\Elements\Text\UIValueTextField.h">
+      <Filter>Source\Framework\UI\Elements\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\UI\Elements\Text\UIDynamicTextField.h">
+      <Filter>Source\Framework\UI\Elements\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\UI\Elements\Buttons\UIDynamicButton.h">
+      <Filter>Source\Framework\UI\Elements\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_2\P2_Pathfinding.h">
+      <Filter>Source\Student\Project_2</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Core\Serialization.h">
+      <Filter>Source\Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Projects\Testing\PathingTester.h">
+      <Filter>Source\Framework\Projects\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Projects\Testing\PathingTestCase.h">
+      <Filter>Source\Framework\Projects\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Projects\Testing\PathingTestData.h">
+      <Filter>Source\Framework\Projects\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Projects\Testing\PathingTestResult.h">
+      <Filter>Source\Framework\Projects\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Misc\RNG.h">
+      <Filter>Source\Framework\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\UI\Elements\Text\UIBannerTextField.h">
+      <Filter>Source\Framework\UI\Elements\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\UI\Elements\Text\UIDynamicBannerTextField.h">
+      <Filter>Source\Framework\UI\Elements\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\UI\Elements\Buttons\UIConditionalButton.h">
+      <Filter>Source\Framework\UI\Elements\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\BehaviorTrees\BehaviorNode.h">
+      <Filter>Source\Framework\BehaviorTrees</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\BehaviorTrees\BehaviorTree.h">
+      <Filter>Source\Framework\BehaviorTrees</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\BehaviorTrees\Blackboard.h">
+      <Filter>Source\Framework\BehaviorTrees</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\BehaviorTrees\NodeInfo.h">
+      <Filter>Source\Framework\BehaviorTrees</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\BehaviorTrees\BehaviorTreeBuilder.h">
+      <Filter>Source\Framework\BehaviorTrees</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\BehaviorTrees\TreeInfo.h">
+      <Filter>Source\Framework\BehaviorTrees</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\BehaviorTrees\BehaviorTreePrototype.h">
+      <Filter>Source\Framework\BehaviorTrees</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\ControlFlow\C_ParallelSequencer.h">
+      <Filter>Source\Student\Project_1\ControlFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\ControlFlow\C_RandomSelector.h">
+      <Filter>Source\Student\Project_1\ControlFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\ControlFlow\C_Selector.h">
+      <Filter>Source\Student\Project_1\ControlFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\ControlFlow\C_Sequencer.h">
+      <Filter>Source\Student\Project_1\ControlFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Decorator\D_Delay.h">
+      <Filter>Source\Student\Project_1\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Decorator\D_RepeatFourTimes.h">
+      <Filter>Source\Student\Project_1\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_CheckMouseClick.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_Idle.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_MoveToFurthestAgent.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_MoveToMouseClick.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_MoveToRandomPosition.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\NodeHeaders.h">
+      <Filter>Source\Student\Project_1</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Decorator\D_InvertedRepeater.h">
+      <Filter>Source\Student\Project_1\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\UI\Elements\Text\UIBehaviorTreeTextField.h">
+      <Filter>Source\Framework\UI\Elements\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Agent\EnemyAgent.h">
+      <Filter>Source\Framework\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\ControlFlow\C_CheckDistance.h">
+      <Filter>Source\Student\Project_1\ControlFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_AvoidFromEnemy.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_ChaseSurvivor.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_ChaseAnimal.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\ControlFlow\C_LeftFirst.h">
+      <Filter>Source\Student\Project_1\ControlFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_ZombieCollisionCheck.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_SpawnNewZombie.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_ChaseZombie.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_KillerIncreaseBodysize.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_Zombie2Patrol.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_SurvivorCollisionCheck.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Framework\Main.cpp">
+      <Filter>Source\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\pch.cpp">
+      <Filter>Source\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Agent\Agent.cpp">
+      <Filter>Source\Framework\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Agent\AgentOrganizer.cpp">
+      <Filter>Source\Framework\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Terrain\MapMath.cpp">
+      <Filter>Source\Framework\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Terrain\Terrain.cpp">
+      <Filter>Source\Framework\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Misc\Murmur2Hash.cpp">
+      <Filter>Source\Framework\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Rendering\SimpleRenderer.cpp">
+      <Filter>Source\Framework\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Agent\CameraAgent.cpp">
+      <Filter>Source\Framework\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Agent\BehaviorAgent.cpp">
+      <Filter>Source\Framework\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Rendering\DeviceResources.cpp">
+      <Filter>Source\Framework\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Rendering\ReadShader.cpp">
+      <Filter>Source\Framework\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Projects\ProjectOne.cpp">
+      <Filter>Source\Framework\Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Projects\ProjectThree.cpp">
+      <Filter>Source\Framework\Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Projects\ProjectTwo.cpp">
+      <Filter>Source\Framework\Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Agent\AStarAgent.cpp">
+      <Filter>Source\Framework\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\UI\UICoordinator.cpp">
+      <Filter>Source\Framework\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Rendering\TextRenderer.cpp">
+      <Filter>Source\Framework\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Core\Engine.cpp">
+      <Filter>Source\Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Rendering\UISpriteRenderer.cpp">
+      <Filter>Source\Framework\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\UI\UITextObject.cpp">
+      <Filter>Source\Framework\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\UI\UIBoundingBox.cpp">
+      <Filter>Source\Framework\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Rendering\DebugRenderer.cpp">
+      <Filter>Source\Framework\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Rendering\MeshRenderer.cpp">
+      <Filter>Source\Framework\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Misc\Stopwatch.cpp">
+      <Filter>Source\Framework\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Core\Messenger.cpp">
+      <Filter>Source\Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\UI\UIColorHighlighter.cpp">
+      <Filter>Source\Framework\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Projects\Project.cpp">
+      <Filter>Source\Framework\Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Input\KeyboardKeys.cpp">
+      <Filter>Source\Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Input\MouseButtons.cpp">
+      <Filter>Source\Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Input\InputHandler.cpp">
+      <Filter>Source\Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\UI\UIColors.cpp">
+      <Filter>Source\Framework\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\UI\Elements\UIElement.cpp">
+      <Filter>Source\Framework\UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\UI\Elements\Buttons\UIButton.cpp">
+      <Filter>Source\Framework\UI\Elements\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\UI\Elements\Buttons\UIToggleButton.cpp">
+      <Filter>Source\Framework\UI\Elements\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\UI\Elements\Text\UITextField.cpp">
+      <Filter>Source\Framework\UI\Elements\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\UI\Elements\Text\UIValueTextField.cpp">
+      <Filter>Source\Framework\UI\Elements\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\UI\Elements\Text\UIDynamicTextField.cpp">
+      <Filter>Source\Framework\UI\Elements\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\UI\Elements\Buttons\UIDynamicButton.cpp">
+      <Filter>Source\Framework\UI\Elements\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_3\P3_TerrainAnalysis.cpp">
+      <Filter>Source\Student\Project_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_2\P2_Pathfinding.cpp">
+      <Filter>Source\Student\Project_2</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Core\Serialization.cpp">
+      <Filter>Source\Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Projects\Testing\PathingTester.cpp">
+      <Filter>Source\Framework\Projects\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Projects\Testing\PathingTestCase.cpp">
+      <Filter>Source\Framework\Projects\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Projects\Testing\PathingTestData.cpp">
+      <Filter>Source\Framework\Projects\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Projects\Testing\PathingTestResult.cpp">
+      <Filter>Source\Framework\Projects\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Misc\PathfindingDetails.cpp">
+      <Filter>Source\Framework\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Misc\RNG.cpp">
+      <Filter>Source\Framework\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\UI\Elements\Text\UIBannerTextField.cpp">
+      <Filter>Source\Framework\UI\Elements\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\UI\Elements\Text\UIDynamicBannerTextField.cpp">
+      <Filter>Source\Framework\UI\Elements\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\UI\Elements\Buttons\UIConditionalButton.cpp">
+      <Filter>Source\Framework\UI\Elements\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\BehaviorTrees\BehaviorNode.cpp">
+      <Filter>Source\Framework\BehaviorTrees</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\BehaviorTrees\BehaviorTree.cpp">
+      <Filter>Source\Framework\BehaviorTrees</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\BehaviorTrees\BehaviorTreeBuilder.cpp">
+      <Filter>Source\Framework\BehaviorTrees</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\BehaviorTrees\BehaviorTreePrototype.cpp">
+      <Filter>Source\Framework\BehaviorTrees</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\ControlFlow\C_ParallelSequencer.cpp">
+      <Filter>Source\Student\Project_1\ControlFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\ControlFlow\C_RandomSelector.cpp">
+      <Filter>Source\Student\Project_1\ControlFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\ControlFlow\C_Selector.cpp">
+      <Filter>Source\Student\Project_1\ControlFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\ControlFlow\C_Sequencer.cpp">
+      <Filter>Source\Student\Project_1\ControlFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Decorator\D_Delay.cpp">
+      <Filter>Source\Student\Project_1\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Decorator\D_RepeatFourTimes.cpp">
+      <Filter>Source\Student\Project_1\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_CheckMouseClick.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_Idle.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_MoveToFurthestAgent.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_MoveToMouseClick.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_MoveToRandomPosition.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\BehaviorTrees\NodeInfo.cpp">
+      <Filter>Source\Framework\BehaviorTrees</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\BehaviorTrees\TreeInfo.cpp">
+      <Filter>Source\Framework\BehaviorTrees</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Decorator\D_InvertedRepeater.cpp">
+      <Filter>Source\Student\Project_1\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\UI\Elements\Text\UIBehaviorTreeTextField.cpp">
+      <Filter>Source\Framework\UI\Elements\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Setup.cpp">
+      <Filter>Source\Student\Project_1</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Agent\EnemyAgent.cpp">
+      <Filter>Source\Framework\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\ControlFlow\C_CheckDistance.cpp">
+      <Filter>Source\Student\Project_1\ControlFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_AvoidFromEnemy.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_ChaseSurvivor.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_ChaseAnimal.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\ControlFlow\C_LeftFirst.cpp">
+      <Filter>Source\Student\Project_1\ControlFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_ZombieCollisionCheck.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_SpawnNewZombie.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_ChaseZombie.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_KillerIncreaseBodysize.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_Zombie2Patrol.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_SurvivorCollisionCheck.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\grid_cell.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\button.DDS">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\slider_bar.DDS">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\slider_knob.DDS">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\mannequin_rig.sdkmesh">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Source\Student\Project_1\Nodes.def">
+      <Filter>Source\Student\Project_1</Filter>
+    </None>
+    <None Include="Source\Student\Project_1\Trees.def">
+      <Filter>Source\Student\Project_1</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Source\Framework\Rendering\GridCellPixelShader.hlsl">
+      <Filter>Source\Framework\Rendering</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Framework\Rendering\GridCellVertexShader.hlsl">
+      <Filter>Source\Framework\Rendering</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

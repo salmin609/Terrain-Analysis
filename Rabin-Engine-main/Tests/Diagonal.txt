@@ -1,0 +1,132 @@
+{
+    "Name": "Diagonal",
+    "Settings": {
+        "Method": "A*",
+        "Heuristic": "Octile",
+        "Weight": 1.0,
+        "Smoothing": false,
+        "Rubberbanding": false
+    },
+    "Expected Results": [
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 1,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 25,
+                "Col": 4
+            },
+            "Cardinal Distance": 0,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": true
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 25,
+                "Col": 4
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 0
+            },
+            "Cardinal Distance": 0,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": true
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 15,
+                "Col": 18
+            },
+            "Goal": {
+                "Row": 2,
+                "Col": 26
+            },
+            "Cardinal Distance": 0,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": true
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 2,
+                "Col": 26
+            },
+            "Goal": {
+                "Row": 15,
+                "Col": 18
+            },
+            "Cardinal Distance": 0,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": true
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 15,
+                "Col": 18
+            },
+            "Goal": {
+                "Row": 38,
+                "Col": 36
+            },
+            "Cardinal Distance": 0,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": true
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 38,
+                "Col": 36
+            },
+            "Goal": {
+                "Row": 15,
+                "Col": 18
+            },
+            "Cardinal Distance": 0,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": true
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 6,
+                "Col": 8
+            },
+            "Goal": {
+                "Row": 5,
+                "Col": 2
+            },
+            "Cardinal Distance": 0,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": true
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 5,
+                "Col": 2
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 8
+            },
+            "Cardinal Distance": 0,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": true
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+REGISTER_CONTROLFLOW(C_ParallelSequencer, "C_ParallelSequencer")
+REGISTER_CONTROLFLOW(C_RandomSelector, "C_RandomSelector")
+REGISTER_CONTROLFLOW(C_Selector, "C_Selector")
+REGISTER_CONTROLFLOW(C_Sequencer, "C_Sequencer")
+
+REGISTER_CONTROLFLOW(C_LeftFirst, "C_LeftFirst")
+
+
+REGISTER_DECORATOR(D_Delay, "D_Delay")
+REGISTER_DECORATOR(D_InvertedRepeater, "D_InvertedRepeater")
+REGISTER_DECORATOR(D_RepeatFourTimes, "D_RepeatFourTimes")
+
+REGISTER_LEAF(L_CheckMouseClick, "L_CheckMouseClick")
+REGISTER_LEAF(L_Idle, "L_Idle")
+REGISTER_LEAF(L_MoveToFurthestAgent, "L_MoveToFurthestAgent")
+REGISTER_LEAF(L_MoveToMouseClick, "L_MoveToMouseClick")
+REGISTER_LEAF(L_MoveToRandomPosition, "L_MoveToRandomPosition")
+
+REGISTER_LEAF(L_AvoidFromEnemy, "L_AvoidFromEnemy")
+REGISTER_LEAF(L_ChaseSurvivor, "L_ChaseSurvivor")
+REGISTER_LEAF(L_ChaseAnimal, "L_ChaseAnimal")
+REGISTER_LEAF(L_ZombieCollisionCheck, "L_ZombieCollisionCheck")
+REGISTER_LEAF(L_SpawnNewZombie, "L_SpawnNewZombie")
+REGISTER_LEAF(L_ChaseZombie, "L_ChaseZombie")
+REGISTER_LEAF(L_KillerIncreaseBodySize, "L_KillerIncreaseBodySize")
+REGISTER_LEAF(L_Zombie2Patrol, "L_Zombie2Patrol")
+REGISTER_LEAF(L_SurvivorCollisionCheck, "L_SurvivorCollisionCheck")

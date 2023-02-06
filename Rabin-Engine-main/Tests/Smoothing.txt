@@ -1,0 +1,72 @@
+{
+    "Name": "Smoothing",
+    "Settings": {
+        "Method": "A*",
+        "Heuristic": "Octile",
+        "Weight": 1.0,
+        "Smoothing": true,
+        "Rubberbanding": false
+    },
+    "Expected Results": [
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 6,
+                "Col": 5
+            },
+            "Goal": {
+                "Row": 38,
+                "Col": 36
+            },
+            "Cardinal Distance": 0,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": true
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 38,
+                "Col": 36
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 5
+            },
+            "Cardinal Distance": 0,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": true
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 3,
+                "Col": 2
+            },
+            "Goal": {
+                "Row": 8,
+                "Col": 13
+            },
+            "Cardinal Distance": 0,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": true
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 8,
+                "Col": 13
+            },
+            "Goal": {
+                "Row": 3,
+                "Col": 2
+            },
+            "Cardinal Distance": 0,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": true
+        }
+    ]
+}

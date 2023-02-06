@@ -1,0 +1,5892 @@
+{
+    "Name": "JPSPlus++",
+    "Settings": {
+        "Method": "JPS+",
+        "Heuristic": "Euclidean",
+        "Weight": 0.0,
+        "Smoothing": false,
+        "Rubberbanding": false
+    },
+    "Expected Results": [
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 0
+            },
+            "Cardinal Distance": 19,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 19,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 19
+            },
+            "Cardinal Distance": 19,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 19,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 19
+            },
+            "Cardinal Distance": 19,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 0,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Cardinal Distance": 19,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 19
+            },
+            "Cardinal Distance": 0,
+            "Diagonal Distance": 19,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 19,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 19
+            },
+            "Cardinal Distance": 0,
+            "Diagonal Distance": 19,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 1,
+                "Col": 5
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 2
+            },
+            "Cardinal Distance": 13,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 18,
+                "Col": 4
+            },
+            "Goal": {
+                "Row": 5,
+                "Col": 16
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 12,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 15,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 7,
+                "Col": 7
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 5,
+                "Col": 17
+            },
+            "Goal": {
+                "Row": 11,
+                "Col": 15
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 11,
+                "Col": 17
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 1
+            },
+            "Cardinal Distance": 8,
+            "Diagonal Distance": 8,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 18,
+                "Col": 7
+            },
+            "Goal": {
+                "Row": 5,
+                "Col": 14
+            },
+            "Cardinal Distance": 6,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 7,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 2,
+                "Col": 6
+            },
+            "Cardinal Distance": 2,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 13,
+                "Col": 18
+            },
+            "Goal": {
+                "Row": 14,
+                "Col": 9
+            },
+            "Cardinal Distance": 8,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 9,
+                "Col": 17
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 8
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 8,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 4,
+                "Col": 1
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 13
+            },
+            "Cardinal Distance": 10,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 6,
+                "Col": 13
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 13
+            },
+            "Cardinal Distance": 13,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 2,
+                "Col": 10
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 5
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 7,
+                "Col": 12
+            },
+            "Goal": {
+                "Row": 13,
+                "Col": 14
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 12,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 18,
+                "Col": 3
+            },
+            "Cardinal Distance": 2,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 11,
+                "Col": 9
+            },
+            "Goal": {
+                "Row": 4,
+                "Col": 2
+            },
+            "Cardinal Distance": 0,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 19,
+                "Col": 2
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 16
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 13,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 0,
+                "Col": 7
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 17
+            },
+            "Cardinal Distance": 9,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 7,
+                "Col": 18
+            },
+            "Goal": {
+                "Row": 12,
+                "Col": 14
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 10,
+                "Col": 17
+            },
+            "Goal": {
+                "Row": 7,
+                "Col": 10
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 9,
+                "Col": 17
+            },
+            "Goal": {
+                "Row": 7,
+                "Col": 5
+            },
+            "Cardinal Distance": 10,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 3,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 4,
+                "Col": 0
+            },
+            "Cardinal Distance": 18,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 7,
+                "Col": 13
+            },
+            "Goal": {
+                "Row": 11,
+                "Col": 2
+            },
+            "Cardinal Distance": 7,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 18,
+                "Col": 16
+            },
+            "Goal": {
+                "Row": 15,
+                "Col": 1
+            },
+            "Cardinal Distance": 12,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 7,
+                "Col": 10
+            },
+            "Goal": {
+                "Row": 3,
+                "Col": 17
+            },
+            "Cardinal Distance": 3,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 0,
+                "Col": 9
+            },
+            "Goal": {
+                "Row": 8,
+                "Col": 10
+            },
+            "Cardinal Distance": 7,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 10,
+                "Col": 6
+            },
+            "Goal": {
+                "Row": 4,
+                "Col": 9
+            },
+            "Cardinal Distance": 3,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 11,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 5,
+                "Col": 6
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 10,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 18
+            },
+            "Cardinal Distance": 6,
+            "Diagonal Distance": 9,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 16,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 10
+            },
+            "Cardinal Distance": 8,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 11,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 4,
+                "Col": 13
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 15,
+                "Col": 6
+            },
+            "Goal": {
+                "Row": 10,
+                "Col": 12
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 19,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 4,
+                "Col": 11
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 11,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 18,
+                "Col": 1
+            },
+            "Goal": {
+                "Row": 13,
+                "Col": 1
+            },
+            "Cardinal Distance": 5,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 0,
+                "Col": 17
+            },
+            "Goal": {
+                "Row": 8,
+                "Col": 8
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 8,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 16,
+                "Col": 2
+            },
+            "Goal": {
+                "Row": 11,
+                "Col": 1
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 4,
+                "Col": 17
+            },
+            "Goal": {
+                "Row": 15,
+                "Col": 14
+            },
+            "Cardinal Distance": 8,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 5,
+                "Col": 12
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 1
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 11,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 19,
+                "Col": 13
+            },
+            "Goal": {
+                "Row": 15,
+                "Col": 8
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 11,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 13
+            },
+            "Cardinal Distance": 8,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 16,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 9,
+                "Col": 11
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 0,
+                "Col": 2
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 14
+            },
+            "Cardinal Distance": 5,
+            "Diagonal Distance": 12,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 12,
+                "Col": 12
+            },
+            "Goal": {
+                "Row": 18,
+                "Col": 19
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 3,
+                "Col": 4
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 17
+            },
+            "Cardinal Distance": 10,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 7,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 9
+            },
+            "Cardinal Distance": 5,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 5,
+                "Col": 15
+            },
+            "Goal": {
+                "Row": 9,
+                "Col": 7
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 2,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 3,
+                "Col": 6
+            },
+            "Cardinal Distance": 12,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 16,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 16,
+                "Col": 13
+            },
+            "Cardinal Distance": 13,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 4,
+                "Col": 9
+            },
+            "Goal": {
+                "Row": 15,
+                "Col": 5
+            },
+            "Cardinal Distance": 7,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 4,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 9,
+                "Col": 16
+            },
+            "Cardinal Distance": 2,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 0,
+            "Start": {
+                "Row": 16,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 9,
+                "Col": 10
+            },
+            "Cardinal Distance": 6,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 39,
+                "Col": 0
+            },
+            "Cardinal Distance": 55,
+            "Diagonal Distance": 21,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 39,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 39,
+                "Col": 39
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 39,
+                "Col": 39
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 39
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 0,
+                "Col": 39
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Cardinal Distance": 53,
+            "Diagonal Distance": 23,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 39,
+                "Col": 39
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 39,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 39
+            },
+            "Cardinal Distance": 22,
+            "Diagonal Distance": 28,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 35,
+                "Col": 31
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 1
+            },
+            "Cardinal Distance": 32,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 0,
+                "Col": 7
+            },
+            "Goal": {
+                "Row": 23,
+                "Col": 35
+            },
+            "Cardinal Distance": 49,
+            "Diagonal Distance": 11,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 38,
+                "Col": 39
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 21
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 33,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 8,
+                "Col": 4
+            },
+            "Cardinal Distance": 22,
+            "Diagonal Distance": 11,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 0,
+                "Col": 34
+            },
+            "Goal": {
+                "Row": 25,
+                "Col": 33
+            },
+            "Cardinal Distance": 24,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 3,
+                "Col": 22
+            },
+            "Goal": {
+                "Row": 8,
+                "Col": 3
+            },
+            "Cardinal Distance": 18,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 36,
+                "Col": 30
+            },
+            "Goal": {
+                "Row": 2,
+                "Col": 32
+            },
+            "Cardinal Distance": 30,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 25,
+                "Col": 39
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 33
+            },
+            "Cardinal Distance": 22,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 33,
+                "Col": 21
+            },
+            "Goal": {
+                "Row": 36,
+                "Col": 35
+            },
+            "Cardinal Distance": 15,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 11,
+                "Col": 33
+            },
+            "Goal": {
+                "Row": 37,
+                "Col": 27
+            },
+            "Cardinal Distance": 20,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 24,
+                "Col": 18
+            },
+            "Goal": {
+                "Row": 2,
+                "Col": 34
+            },
+            "Cardinal Distance": 18,
+            "Diagonal Distance": 10,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 6,
+                "Col": 39
+            },
+            "Goal": {
+                "Row": 18,
+                "Col": 18
+            },
+            "Cardinal Distance": 19,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 34,
+                "Col": 26
+            },
+            "Goal": {
+                "Row": 10,
+                "Col": 33
+            },
+            "Cardinal Distance": 23,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 0,
+                "Col": 8
+            },
+            "Goal": {
+                "Row": 14,
+                "Col": 34
+            },
+            "Cardinal Distance": 50,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 8,
+                "Col": 12
+            },
+            "Goal": {
+                "Row": 7,
+                "Col": 5
+            },
+            "Cardinal Distance": 14,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 13,
+                "Col": 7
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 36
+            },
+            "Cardinal Distance": 22,
+            "Diagonal Distance": 12,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 19,
+                "Col": 24
+            },
+            "Goal": {
+                "Row": 26,
+                "Col": 10
+            },
+            "Cardinal Distance": 9,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 8,
+                "Col": 37
+            },
+            "Goal": {
+                "Row": 2,
+                "Col": 12
+            },
+            "Cardinal Distance": 19,
+            "Diagonal Distance": 9,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 14,
+                "Col": 37
+            },
+            "Goal": {
+                "Row": 31,
+                "Col": 29
+            },
+            "Cardinal Distance": 19,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 1,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 27,
+                "Col": 4
+            },
+            "Cardinal Distance": 49,
+            "Diagonal Distance": 12,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 1,
+                "Col": 26
+            },
+            "Goal": {
+                "Row": 28,
+                "Col": 3
+            },
+            "Cardinal Distance": 22,
+            "Diagonal Distance": 14,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 2,
+                "Col": 9
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 12
+            },
+            "Cardinal Distance": 26,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 29,
+                "Col": 14
+            },
+            "Goal": {
+                "Row": 36,
+                "Col": 12
+            },
+            "Cardinal Distance": 5,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 17,
+                "Col": 22
+            },
+            "Goal": {
+                "Row": 38,
+                "Col": 9
+            },
+            "Cardinal Distance": 14,
+            "Diagonal Distance": 10,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 14,
+                "Col": 32
+            },
+            "Goal": {
+                "Row": 15,
+                "Col": 12
+            },
+            "Cardinal Distance": 21,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 30,
+                "Col": 6
+            },
+            "Goal": {
+                "Row": 25,
+                "Col": 16
+            },
+            "Cardinal Distance": 5,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 19,
+                "Col": 13
+            },
+            "Goal": {
+                "Row": 36,
+                "Col": 28
+            },
+            "Cardinal Distance": 18,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 2,
+                "Col": 1
+            },
+            "Goal": {
+                "Row": 20,
+                "Col": 39
+            },
+            "Cardinal Distance": 56,
+            "Diagonal Distance": 18,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 4,
+                "Col": 21
+            },
+            "Goal": {
+                "Row": 34,
+                "Col": 19
+            },
+            "Cardinal Distance": 24,
+            "Diagonal Distance": 8,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 24,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 31,
+                "Col": 15
+            },
+            "Cardinal Distance": 3,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 13,
+                "Col": 1
+            },
+            "Goal": {
+                "Row": 4,
+                "Col": 21
+            },
+            "Cardinal Distance": 19,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 3,
+                "Col": 4
+            },
+            "Goal": {
+                "Row": 39,
+                "Col": 22
+            },
+            "Cardinal Distance": 46,
+            "Diagonal Distance": 16,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 27,
+                "Col": 8
+            },
+            "Goal": {
+                "Row": 8,
+                "Col": 6
+            },
+            "Cardinal Distance": 9,
+            "Diagonal Distance": 11,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 26,
+                "Col": 31
+            },
+            "Goal": {
+                "Row": 34,
+                "Col": 17
+            },
+            "Cardinal Distance": 8,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 22,
+                "Col": 30
+            },
+            "Goal": {
+                "Row": 30,
+                "Col": 7
+            },
+            "Cardinal Distance": 17,
+            "Diagonal Distance": 9,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 3,
+                "Col": 6
+            },
+            "Goal": {
+                "Row": 12,
+                "Col": 34
+            },
+            "Cardinal Distance": 53,
+            "Diagonal Distance": 8,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 0,
+                "Col": 20
+            },
+            "Goal": {
+                "Row": 21,
+                "Col": 19
+            },
+            "Cardinal Distance": 18,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 11,
+                "Col": 22
+            },
+            "Goal": {
+                "Row": 20,
+                "Col": 13
+            },
+            "Cardinal Distance": 12,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 36,
+                "Col": 1
+            },
+            "Goal": {
+                "Row": 29,
+                "Col": 38
+            },
+            "Cardinal Distance": 30,
+            "Diagonal Distance": 10,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 26,
+                "Col": 37
+            },
+            "Goal": {
+                "Row": 2,
+                "Col": 16
+            },
+            "Cardinal Distance": 23,
+            "Diagonal Distance": 11,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 22,
+                "Col": 10
+            },
+            "Goal": {
+                "Row": 11,
+                "Col": 25
+            },
+            "Cardinal Distance": 14,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 1,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 28,
+                "Col": 30
+            },
+            "Cardinal Distance": 53,
+            "Diagonal Distance": 22,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 39,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 30,
+                "Col": 15
+            },
+            "Cardinal Distance": 12,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 26,
+                "Col": 2
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 7
+            },
+            "Cardinal Distance": 34,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 0,
+                "Col": 17
+            },
+            "Goal": {
+                "Row": 22,
+                "Col": 7
+            },
+            "Cardinal Distance": 12,
+            "Diagonal Distance": 10,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 29,
+                "Col": 26
+            },
+            "Goal": {
+                "Row": 2,
+                "Col": 39
+            },
+            "Cardinal Distance": 18,
+            "Diagonal Distance": 11,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 3,
+                "Col": 36
+            },
+            "Goal": {
+                "Row": 21,
+                "Col": 31
+            },
+            "Cardinal Distance": 15,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 14,
+                "Col": 20
+            },
+            "Goal": {
+                "Row": 12,
+                "Col": 16
+            },
+            "Cardinal Distance": 6,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 20,
+                "Col": 7
+            },
+            "Goal": {
+                "Row": 9,
+                "Col": 22
+            },
+            "Cardinal Distance": 10,
+            "Diagonal Distance": 8,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 1,
+            "Start": {
+                "Row": 34,
+                "Col": 12
+            },
+            "Goal": {
+                "Row": 12,
+                "Col": 26
+            },
+            "Cardinal Distance": 26,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 39,
+                "Col": 0
+            },
+            "Cardinal Distance": 79,
+            "Diagonal Distance": 25,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 39,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 39,
+                "Col": 39
+            },
+            "Cardinal Distance": 39,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 39,
+                "Col": 39
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 39
+            },
+            "Cardinal Distance": 23,
+            "Diagonal Distance": 17,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 0,
+                "Col": 39
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Cardinal Distance": 39,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 39,
+                "Col": 39
+            },
+            "Cardinal Distance": 56,
+            "Diagonal Distance": 19,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 39,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 39
+            },
+            "Cardinal Distance": 46,
+            "Diagonal Distance": 23,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 29,
+                "Col": 33
+            },
+            "Goal": {
+                "Row": 20,
+                "Col": 26
+            },
+            "Cardinal Distance": 72,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 5,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 34,
+                "Col": 30
+            },
+            "Cardinal Distance": 40,
+            "Diagonal Distance": 13,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 19,
+                "Col": 39
+            },
+            "Goal": {
+                "Row": 33,
+                "Col": 9
+            },
+            "Cardinal Distance": 38,
+            "Diagonal Distance": 10,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 33,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 23,
+                "Col": 30
+            },
+            "Cardinal Distance": 35,
+            "Diagonal Distance": 8,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 0,
+                "Col": 39
+            },
+            "Goal": {
+                "Row": 16,
+                "Col": 29
+            },
+            "Cardinal Distance": 18,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 18,
+                "Col": 30
+            },
+            "Goal": {
+                "Row": 32,
+                "Col": 28
+            },
+            "Cardinal Distance": 16,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 21,
+                "Col": 33
+            },
+            "Goal": {
+                "Row": 32,
+                "Col": 22
+            },
+            "Cardinal Distance": 22,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 23,
+                "Col": 38
+            },
+            "Goal": {
+                "Row": 35,
+                "Col": 33
+            },
+            "Cardinal Distance": 7,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 26,
+                "Col": 10
+            },
+            "Goal": {
+                "Row": 34,
+                "Col": 18
+            },
+            "Cardinal Distance": 42,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 18,
+                "Col": 27
+            },
+            "Goal": {
+                "Row": 21,
+                "Col": 15
+            },
+            "Cardinal Distance": 9,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 34,
+                "Col": 12
+            },
+            "Goal": {
+                "Row": 39,
+                "Col": 35
+            },
+            "Cardinal Distance": 18,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 18,
+                "Col": 8
+            },
+            "Goal": {
+                "Row": 18,
+                "Col": 7
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 16,
+                "Col": 26
+            },
+            "Goal": {
+                "Row": 34,
+                "Col": 29
+            },
+            "Cardinal Distance": 51,
+            "Diagonal Distance": 10,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 28,
+                "Col": 31
+            },
+            "Goal": {
+                "Row": 34,
+                "Col": 23
+            },
+            "Cardinal Distance": 18,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 16,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 14,
+                "Col": 3
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 38,
+                "Col": 32
+            },
+            "Goal": {
+                "Row": 20,
+                "Col": 10
+            },
+            "Cardinal Distance": 38,
+            "Diagonal Distance": 10,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 34,
+                "Col": 28
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 9
+            },
+            "Cardinal Distance": 34,
+            "Diagonal Distance": 9,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 27,
+                "Col": 29
+            },
+            "Goal": {
+                "Row": 28,
+                "Col": 36
+            },
+            "Cardinal Distance": 6,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 34,
+                "Col": 12
+            },
+            "Goal": {
+                "Row": 10,
+                "Col": 2
+            },
+            "Cardinal Distance": 22,
+            "Diagonal Distance": 11,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 7,
+                "Col": 16
+            },
+            "Goal": {
+                "Row": 23,
+                "Col": 32
+            },
+            "Cardinal Distance": 24,
+            "Diagonal Distance": 12,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 19,
+                "Col": 31
+            },
+            "Goal": {
+                "Row": 28,
+                "Col": 39
+            },
+            "Cardinal Distance": 7,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 6,
+                "Col": 6
+            },
+            "Goal": {
+                "Row": 7,
+                "Col": 19
+            },
+            "Cardinal Distance": 74,
+            "Diagonal Distance": 25,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 24,
+                "Col": 30
+            },
+            "Goal": {
+                "Row": 18,
+                "Col": 16
+            },
+            "Cardinal Distance": 58,
+            "Diagonal Distance": 10,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 0,
+                "Col": 31
+            },
+            "Goal": {
+                "Row": 31,
+                "Col": 7
+            },
+            "Cardinal Distance": 49,
+            "Diagonal Distance": 17,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 2,
+                "Col": 9
+            },
+            "Goal": {
+                "Row": 38,
+                "Col": 12
+            },
+            "Cardinal Distance": 61,
+            "Diagonal Distance": 22,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 26,
+                "Col": 5
+            },
+            "Goal": {
+                "Row": 7,
+                "Col": 2
+            },
+            "Cardinal Distance": 8,
+            "Diagonal Distance": 12,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 31,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 37,
+                "Col": 15
+            },
+            "Cardinal Distance": 2,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 14,
+                "Col": 33
+            },
+            "Goal": {
+                "Row": 37,
+                "Col": 0
+            },
+            "Cardinal Distance": 40,
+            "Diagonal Distance": 15,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 6,
+                "Col": 6
+            },
+            "Goal": {
+                "Row": 20,
+                "Col": 29
+            },
+            "Cardinal Distance": 57,
+            "Diagonal Distance": 14,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 37,
+                "Col": 14
+            },
+            "Goal": {
+                "Row": 23,
+                "Col": 29
+            },
+            "Cardinal Distance": 21,
+            "Diagonal Distance": 12,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 25,
+                "Col": 36
+            },
+            "Goal": {
+                "Row": 10,
+                "Col": 10
+            },
+            "Cardinal Distance": 35,
+            "Diagonal Distance": 11,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 39,
+                "Col": 29
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 19
+            },
+            "Cardinal Distance": 40,
+            "Diagonal Distance": 14,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 35,
+                "Col": 30
+            },
+            "Goal": {
+                "Row": 18,
+                "Col": 30
+            },
+            "Cardinal Distance": 11,
+            "Diagonal Distance": 10,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 9,
+                "Col": 34
+            },
+            "Goal": {
+                "Row": 21,
+                "Col": 21
+            },
+            "Cardinal Distance": 71,
+            "Diagonal Distance": 18,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 24,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 23,
+                "Col": 20
+            },
+            "Cardinal Distance": 8,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 24,
+                "Col": 28
+            },
+            "Goal": {
+                "Row": 35,
+                "Col": 4
+            },
+            "Cardinal Distance": 35,
+            "Diagonal Distance": 9,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 36,
+                "Col": 16
+            },
+            "Goal": {
+                "Row": 27,
+                "Col": 19
+            },
+            "Cardinal Distance": 34,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 18,
+                "Col": 29
+            },
+            "Goal": {
+                "Row": 5,
+                "Col": 18
+            },
+            "Cardinal Distance": 20,
+            "Diagonal Distance": 11,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 25,
+                "Col": 22
+            },
+            "Goal": {
+                "Row": 25,
+                "Col": 24
+            },
+            "Cardinal Distance": 2,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 20,
+                "Col": 4
+            },
+            "Goal": {
+                "Row": 33,
+                "Col": 34
+            },
+            "Cardinal Distance": 39,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 24,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 36,
+                "Col": 17
+            },
+            "Cardinal Distance": 16,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 10,
+                "Col": 2
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 25
+            },
+            "Cardinal Distance": 65,
+            "Diagonal Distance": 27,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 34,
+                "Col": 38
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 10
+            },
+            "Cardinal Distance": 45,
+            "Diagonal Distance": 9,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 15,
+                "Col": 15
+            },
+            "Goal": {
+                "Row": 7,
+                "Col": 37
+            },
+            "Cardinal Distance": 60,
+            "Diagonal Distance": 23,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 31,
+                "Col": 5
+            },
+            "Goal": {
+                "Row": 35,
+                "Col": 10
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 32,
+                "Col": 20
+            },
+            "Goal": {
+                "Row": 27,
+                "Col": 3
+            },
+            "Cardinal Distance": 20,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 6,
+                "Col": 21
+            },
+            "Goal": {
+                "Row": 27,
+                "Col": 15
+            },
+            "Cardinal Distance": 27,
+            "Diagonal Distance": 17,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 33,
+                "Col": 2
+            },
+            "Goal": {
+                "Row": 37,
+                "Col": 29
+            },
+            "Cardinal Distance": 23,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 16,
+                "Col": 25
+            },
+            "Goal": {
+                "Row": 16,
+                "Col": 29
+            },
+            "Cardinal Distance": 70,
+            "Diagonal Distance": 14,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 2,
+            "Start": {
+                "Row": 33,
+                "Col": 26
+            },
+            "Goal": {
+                "Row": 20,
+                "Col": 39
+            },
+            "Cardinal Distance": 22,
+            "Diagonal Distance": 9,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 0
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 19,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 19
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 19,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 19
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 0,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 19
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 19,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 19
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 7,
+                "Col": 7
+            },
+            "Goal": {
+                "Row": 18,
+                "Col": 1
+            },
+            "Cardinal Distance": 7,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 9,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 12,
+                "Col": 15
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 7,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 9,
+                "Col": 13
+            },
+            "Cardinal Distance": 0,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 1,
+                "Col": 15
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 17
+            },
+            "Cardinal Distance": 20,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 1,
+                "Col": 17
+            },
+            "Goal": {
+                "Row": 5,
+                "Col": 6
+            },
+            "Cardinal Distance": 7,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 17,
+                "Col": 10
+            },
+            "Goal": {
+                "Row": 2,
+                "Col": 3
+            },
+            "Cardinal Distance": 22,
+            "Diagonal Distance": 11,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 17,
+                "Col": 18
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 17
+            },
+            "Cardinal Distance": 17,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 18,
+                "Col": 17
+            },
+            "Goal": {
+                "Row": 5,
+                "Col": 1
+            },
+            "Cardinal Distance": 31,
+            "Diagonal Distance": 8,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 18,
+                "Col": 7
+            },
+            "Goal": {
+                "Row": 7,
+                "Col": 18
+            },
+            "Cardinal Distance": 16,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 11,
+                "Col": 12
+            },
+            "Goal": {
+                "Row": 14,
+                "Col": 16
+            },
+            "Cardinal Distance": 3,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 15,
+                "Col": 9
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 8
+            },
+            "Cardinal Distance": 10,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 2,
+                "Col": 6
+            },
+            "Goal": {
+                "Row": 10,
+                "Col": 18
+            },
+            "Cardinal Distance": 22,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 17,
+                "Col": 12
+            },
+            "Goal": {
+                "Row": 8,
+                "Col": 8
+            },
+            "Cardinal Distance": 9,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 4,
+                "Col": 1
+            },
+            "Goal": {
+                "Row": 11,
+                "Col": 9
+            },
+            "Cardinal Distance": 21,
+            "Diagonal Distance": 11,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 18,
+                "Col": 9
+            },
+            "Goal": {
+                "Row": 7,
+                "Col": 5
+            },
+            "Cardinal Distance": 9,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 7,
+                "Col": 10
+            },
+            "Goal": {
+                "Row": 10,
+                "Col": 2
+            },
+            "Cardinal Distance": 7,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 12,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 16,
+                "Col": 17
+            },
+            "Cardinal Distance": 14,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 7,
+                "Col": 4
+            },
+            "Goal": {
+                "Row": 13,
+                "Col": 11
+            },
+            "Cardinal Distance": 11,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 1,
+                "Col": 13
+            },
+            "Goal": {
+                "Row": 9,
+                "Col": 9
+            },
+            "Cardinal Distance": 22,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 8,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 16,
+                "Col": 8
+            },
+            "Cardinal Distance": 9,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 3,
+                "Col": 8
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 16
+            },
+            "Cardinal Distance": 24,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 2,
+                "Col": 6
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 5
+            },
+            "Cardinal Distance": 20,
+            "Diagonal Distance": 9,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 8,
+                "Col": 6
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 4
+            },
+            "Cardinal Distance": 6,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 11,
+                "Col": 18
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 11
+            },
+            "Cardinal Distance": 9,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 3,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 15
+            },
+            "Cardinal Distance": 30,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 16,
+                "Col": 9
+            },
+            "Goal": {
+                "Row": 13,
+                "Col": 7
+            },
+            "Cardinal Distance": 5,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 12,
+                "Col": 14
+            },
+            "Goal": {
+                "Row": 12,
+                "Col": 9
+            },
+            "Cardinal Distance": 5,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 12,
+                "Col": 10
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 7
+            },
+            "Cardinal Distance": 6,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 5,
+                "Col": 10
+            },
+            "Goal": {
+                "Row": 15,
+                "Col": 12
+            },
+            "Cardinal Distance": 16,
+            "Diagonal Distance": 8,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 15,
+                "Col": 18
+            },
+            "Goal": {
+                "Row": 12,
+                "Col": 15
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 12,
+                "Col": 14
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 1
+            },
+            "Cardinal Distance": 27,
+            "Diagonal Distance": 8,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 9,
+                "Col": 1
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 3
+            },
+            "Cardinal Distance": 14,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 8,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 14
+            },
+            "Cardinal Distance": 11,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 18,
+                "Col": 6
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 10
+            },
+            "Cardinal Distance": 17,
+            "Diagonal Distance": 8,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 18,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 12,
+                "Col": 8
+            },
+            "Cardinal Distance": 9,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 15,
+                "Col": 14
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 2
+            },
+            "Cardinal Distance": 34,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 7,
+                "Col": 16
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 12
+            },
+            "Cardinal Distance": 12,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 6,
+                "Col": 1
+            },
+            "Goal": {
+                "Row": 9,
+                "Col": 15
+            },
+            "Cardinal Distance": 27,
+            "Diagonal Distance": 9,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 15,
+                "Col": 16
+            },
+            "Goal": {
+                "Row": 4,
+                "Col": 4
+            },
+            "Cardinal Distance": 29,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 10,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 8
+            },
+            "Cardinal Distance": 18,
+            "Diagonal Distance": 9,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 16,
+                "Col": 14
+            },
+            "Goal": {
+                "Row": 14,
+                "Col": 6
+            },
+            "Cardinal Distance": 8,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 7,
+                "Col": 10
+            },
+            "Goal": {
+                "Row": 18,
+                "Col": 1
+            },
+            "Cardinal Distance": 8,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 16,
+                "Col": 12
+            },
+            "Goal": {
+                "Row": 15,
+                "Col": 9
+            },
+            "Cardinal Distance": 2,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 2,
+                "Col": 14
+            },
+            "Goal": {
+                "Row": 13,
+                "Col": 14
+            },
+            "Cardinal Distance": 17,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 7,
+                "Col": 18
+            },
+            "Goal": {
+                "Row": 12,
+                "Col": 3
+            },
+            "Cardinal Distance": 20,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 13,
+                "Col": 6
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 16
+            },
+            "Cardinal Distance": 3,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 12,
+                "Col": 5
+            },
+            "Goal": {
+                "Row": 16,
+                "Col": 17
+            },
+            "Cardinal Distance": 12,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 13,
+                "Col": 14
+            },
+            "Goal": {
+                "Row": 10,
+                "Col": 6
+            },
+            "Cardinal Distance": 5,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 7,
+                "Col": 16
+            },
+            "Goal": {
+                "Row": 15,
+                "Col": 12
+            },
+            "Cardinal Distance": 12,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 3,
+            "Start": {
+                "Row": 12,
+                "Col": 16
+            },
+            "Goal": {
+                "Row": 7,
+                "Col": 8
+            },
+            "Cardinal Distance": 3,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 0
+            },
+            "Cardinal Distance": 17,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 19,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 19
+            },
+            "Cardinal Distance": 15,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 19,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 19
+            },
+            "Cardinal Distance": 17,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 0,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Cardinal Distance": 19,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 19
+            },
+            "Cardinal Distance": 10,
+            "Diagonal Distance": 14,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 19,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 19
+            },
+            "Cardinal Distance": 8,
+            "Diagonal Distance": 15,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 14,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 1
+            },
+            "Cardinal Distance": 7,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 17,
+                "Col": 6
+            },
+            "Goal": {
+                "Row": 7,
+                "Col": 14
+            },
+            "Cardinal Distance": 6,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 19,
+                "Col": 16
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 6
+            },
+            "Cardinal Distance": 10,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 16,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 2,
+                "Col": 8
+            },
+            "Cardinal Distance": 11,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 16,
+                "Col": 7
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 3
+            },
+            "Cardinal Distance": 3,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 17,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 5,
+                "Col": 10
+            },
+            "Cardinal Distance": 3,
+            "Diagonal Distance": 9,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 8,
+                "Col": 15
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 2
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 9,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 11,
+                "Col": 14
+            },
+            "Goal": {
+                "Row": 15,
+                "Col": 6
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 19,
+                "Col": 18
+            },
+            "Goal": {
+                "Row": 4,
+                "Col": 4
+            },
+            "Cardinal Distance": 7,
+            "Diagonal Distance": 11,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 12,
+                "Col": 9
+            },
+            "Goal": {
+                "Row": 16,
+                "Col": 7
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 1,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 18,
+                "Col": 2
+            },
+            "Cardinal Distance": 8,
+            "Diagonal Distance": 13,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 0,
+                "Col": 8
+            },
+            "Goal": {
+                "Row": 15,
+                "Col": 0
+            },
+            "Cardinal Distance": 9,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 11,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 2,
+                "Col": 3
+            },
+            "Cardinal Distance": 9,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 10,
+                "Col": 12
+            },
+            "Goal": {
+                "Row": 16,
+                "Col": 19
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 5,
+                "Col": 6
+            },
+            "Goal": {
+                "Row": 13,
+                "Col": 4
+            },
+            "Cardinal Distance": 6,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 7,
+                "Col": 18
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 9
+            },
+            "Cardinal Distance": 3,
+            "Diagonal Distance": 9,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 8,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 4,
+                "Col": 19
+            },
+            "Cardinal Distance": 14,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 12,
+                "Col": 7
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 9
+            },
+            "Cardinal Distance": 5,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 17,
+                "Col": 15
+            },
+            "Goal": {
+                "Row": 10,
+                "Col": 14
+            },
+            "Cardinal Distance": 6,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 5,
+                "Col": 1
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 3
+            },
+            "Cardinal Distance": 14,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 14,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 2,
+                "Col": 8
+            },
+            "Cardinal Distance": 3,
+            "Diagonal Distance": 10,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 13,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 16,
+                "Col": 5
+            },
+            "Cardinal Distance": 13,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 9,
+                "Col": 13
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 11
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 10,
+                "Col": 1
+            },
+            "Goal": {
+                "Row": 11,
+                "Col": 15
+            },
+            "Cardinal Distance": 13,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 16,
+                "Col": 5
+            },
+            "Goal": {
+                "Row": 12,
+                "Col": 3
+            },
+            "Cardinal Distance": 2,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 10,
+                "Col": 14
+            },
+            "Goal": {
+                "Row": 14,
+                "Col": 4
+            },
+            "Cardinal Distance": 6,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 16,
+                "Col": 18
+            },
+            "Goal": {
+                "Row": 14,
+                "Col": 18
+            },
+            "Cardinal Distance": 2,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 4,
+                "Col": 10
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 13
+            },
+            "Cardinal Distance": 10,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 12,
+                "Col": 16
+            },
+            "Goal": {
+                "Row": 4,
+                "Col": 11
+            },
+            "Cardinal Distance": 3,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 19,
+                "Col": 17
+            },
+            "Goal": {
+                "Row": 4,
+                "Col": 17
+            },
+            "Cardinal Distance": 15,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 12,
+                "Col": 17
+            },
+            "Goal": {
+                "Row": 8,
+                "Col": 9
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 19,
+                "Col": 8
+            },
+            "Goal": {
+                "Row": 11,
+                "Col": 12
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 10,
+                "Col": 8
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 15
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 11,
+                "Col": 14
+            },
+            "Goal": {
+                "Row": 16,
+                "Col": 4
+            },
+            "Cardinal Distance": 5,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 18,
+                "Col": 1
+            },
+            "Goal": {
+                "Row": 8,
+                "Col": 3
+            },
+            "Cardinal Distance": 10,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 5,
+                "Col": 14
+            },
+            "Goal": {
+                "Row": 14,
+                "Col": 1
+            },
+            "Cardinal Distance": 8,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 5,
+                "Col": 10
+            },
+            "Goal": {
+                "Row": 4,
+                "Col": 10
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 13,
+                "Col": 18
+            },
+            "Goal": {
+                "Row": 12,
+                "Col": 6
+            },
+            "Cardinal Distance": 11,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 18,
+                "Col": 6
+            },
+            "Goal": {
+                "Row": 13,
+                "Col": 16
+            },
+            "Cardinal Distance": 7,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 0,
+                "Col": 14
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 13
+            },
+            "Cardinal Distance": 16,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 8,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 14
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 5,
+                "Col": 5
+            },
+            "Goal": {
+                "Row": 16,
+                "Col": 11
+            },
+            "Cardinal Distance": 7,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 2,
+                "Col": 18
+            },
+            "Goal": {
+                "Row": 8,
+                "Col": 18
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 8,
+                "Col": 17
+            },
+            "Goal": {
+                "Row": 5,
+                "Col": 1
+            },
+            "Cardinal Distance": 15,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 19,
+                "Col": 13
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 13
+            },
+            "Cardinal Distance": 2,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 10,
+                "Col": 7
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 17
+            },
+            "Cardinal Distance": 6,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 1,
+                "Col": 4
+            },
+            "Goal": {
+                "Row": 18,
+                "Col": 0
+            },
+            "Cardinal Distance": 19,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 16,
+                "Col": 17
+            },
+            "Goal": {
+                "Row": 4,
+                "Col": 3
+            },
+            "Cardinal Distance": 6,
+            "Diagonal Distance": 10,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 6,
+                "Col": 14
+            },
+            "Goal": {
+                "Row": 2,
+                "Col": 3
+            },
+            "Cardinal Distance": 7,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 4,
+            "Start": {
+                "Row": 0,
+                "Col": 8
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 10
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 0
+            },
+            "Cardinal Distance": 35,
+            "Diagonal Distance": 11,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 19,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 19
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 19,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 19
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 0,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Cardinal Distance": 39,
+            "Diagonal Distance": 17,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 19
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 19,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 19
+            },
+            "Cardinal Distance": 18,
+            "Diagonal Distance": 10,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 19,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 8,
+                "Col": 13
+            },
+            "Cardinal Distance": 13,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 11,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 14,
+                "Col": 10
+            },
+            "Cardinal Distance": 10,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 0,
+                "Col": 2
+            },
+            "Goal": {
+                "Row": 13,
+                "Col": 19
+            },
+            "Cardinal Distance": 38,
+            "Diagonal Distance": 15,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 15,
+                "Col": 17
+            },
+            "Goal": {
+                "Row": 9,
+                "Col": 10
+            },
+            "Cardinal Distance": 9,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 2,
+                "Col": 14
+            },
+            "Goal": {
+                "Row": 15,
+                "Col": 6
+            },
+            "Cardinal Distance": 13,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 18,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 3,
+                "Col": 4
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 1,
+                "Col": 7
+            },
+            "Goal": {
+                "Row": 13,
+                "Col": 19
+            },
+            "Cardinal Distance": 32,
+            "Diagonal Distance": 8,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 11,
+                "Col": 13
+            },
+            "Goal": {
+                "Row": 4,
+                "Col": 13
+            },
+            "Cardinal Distance": 5,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 7,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 8
+            },
+            "Cardinal Distance": 34,
+            "Diagonal Distance": 9,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 1,
+                "Col": 13
+            },
+            "Goal": {
+                "Row": 7,
+                "Col": 2
+            },
+            "Cardinal Distance": 27,
+            "Diagonal Distance": 14,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 8,
+                "Col": 6
+            },
+            "Goal": {
+                "Row": 8,
+                "Col": 19
+            },
+            "Cardinal Distance": 13,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 17,
+                "Col": 9
+            },
+            "Goal": {
+                "Row": 16,
+                "Col": 13
+            },
+            "Cardinal Distance": 3,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 18,
+                "Col": 13
+            },
+            "Goal": {
+                "Row": 9,
+                "Col": 3
+            },
+            "Cardinal Distance": 13,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 15,
+                "Col": 18
+            },
+            "Goal": {
+                "Row": 4,
+                "Col": 13
+            },
+            "Cardinal Distance": 6,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 6,
+                "Col": 15
+            },
+            "Goal": {
+                "Row": 9,
+                "Col": 17
+            },
+            "Cardinal Distance": 3,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 3,
+                "Col": 14
+            },
+            "Goal": {
+                "Row": 2,
+                "Col": 13
+            },
+            "Cardinal Distance": 2,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 8,
+                "Col": 10
+            },
+            "Goal": {
+                "Row": 15,
+                "Col": 6
+            },
+            "Cardinal Distance": 11,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 11,
+                "Col": 16
+            },
+            "Goal": {
+                "Row": 7,
+                "Col": 0
+            },
+            "Cardinal Distance": 32,
+            "Diagonal Distance": 12,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 16,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 13,
+                "Col": 5
+            },
+            "Cardinal Distance": 8,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 17,
+                "Col": 13
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 13
+            },
+            "Cardinal Distance": 13,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 7,
+                "Col": 13
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 7
+            },
+            "Cardinal Distance": 29,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 4,
+                "Col": 14
+            },
+            "Goal": {
+                "Row": 15,
+                "Col": 19
+            },
+            "Cardinal Distance": 8,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 19,
+                "Col": 13
+            },
+            "Goal": {
+                "Row": 10,
+                "Col": 1
+            },
+            "Cardinal Distance": 9,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 10,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 12,
+                "Col": 4
+            },
+            "Cardinal Distance": 5,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 4,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 15,
+                "Col": 8
+            },
+            "Cardinal Distance": 12,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 15,
+                "Col": 17
+            },
+            "Goal": {
+                "Row": 3,
+                "Col": 17
+            },
+            "Cardinal Distance": 10,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 9,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 17
+            },
+            "Cardinal Distance": 3,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 0,
+                "Col": 8
+            },
+            "Goal": {
+                "Row": 4,
+                "Col": 5
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 0,
+                "Col": 5
+            },
+            "Goal": {
+                "Row": 10,
+                "Col": 4
+            },
+            "Cardinal Distance": 29,
+            "Diagonal Distance": 10,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 17,
+                "Col": 13
+            },
+            "Goal": {
+                "Row": 17,
+                "Col": 9
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 5,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 16
+            },
+            "Cardinal Distance": 28,
+            "Diagonal Distance": 14,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 0,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 9
+            },
+            "Cardinal Distance": 28,
+            "Diagonal Distance": 14,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 16,
+                "Col": 18
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 14
+            },
+            "Cardinal Distance": 6,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 4,
+                "Col": 5
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 13
+            },
+            "Cardinal Distance": 27,
+            "Diagonal Distance": 11,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 19,
+                "Col": 6
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 10
+            },
+            "Cardinal Distance": 30,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 10,
+                "Col": 7
+            },
+            "Goal": {
+                "Row": 16,
+                "Col": 8
+            },
+            "Cardinal Distance": 5,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 12,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 3,
+                "Col": 18
+            },
+            "Cardinal Distance": 8,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 15,
+                "Col": 12
+            },
+            "Goal": {
+                "Row": 8,
+                "Col": 17
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 0,
+                "Col": 7
+            },
+            "Goal": {
+                "Row": 11,
+                "Col": 18
+            },
+            "Cardinal Distance": 32,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 7,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 9,
+                "Col": 11
+            },
+            "Cardinal Distance": 2,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 12,
+                "Col": 4
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 14
+            },
+            "Cardinal Distance": 3,
+            "Diagonal Distance": 9,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 10,
+                "Col": 6
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 9
+            },
+            "Cardinal Distance": 1,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 19,
+                "Col": 6
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 16
+            },
+            "Cardinal Distance": 14,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 16,
+                "Col": 12
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 0
+            },
+            "Cardinal Distance": 34,
+            "Diagonal Distance": 8,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 2,
+                "Col": 12
+            },
+            "Goal": {
+                "Row": 10,
+                "Col": 2
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 8,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 18,
+                "Col": 10
+            },
+            "Goal": {
+                "Row": 2,
+                "Col": 5
+            },
+            "Cardinal Distance": 31,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 9,
+                "Col": 19
+            },
+            "Goal": {
+                "Row": 13,
+                "Col": 5
+            },
+            "Cardinal Distance": 14,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 6,
+                "Col": 15
+            },
+            "Goal": {
+                "Row": 4,
+                "Col": 11
+            },
+            "Cardinal Distance": 2,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 19,
+                "Col": 10
+            },
+            "Goal": {
+                "Row": 3,
+                "Col": 14
+            },
+            "Cardinal Distance": 10,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 5,
+            "Start": {
+                "Row": 0,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 11,
+                "Col": 14
+            },
+            "Cardinal Distance": 30,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 39,
+                "Col": 0
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 39,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 39,
+                "Col": 39
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 39,
+                "Col": 39
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 39
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 0,
+                "Col": 39
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 0,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 39,
+                "Col": 39
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 39,
+                "Col": 0
+            },
+            "Goal": {
+                "Row": 0,
+                "Col": 39
+            },
+            "Cardinal Distance": -1,
+            "Diagonal Distance": -1,
+            "Has Solution": false,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 36,
+                "Col": 28
+            },
+            "Goal": {
+                "Row": 14,
+                "Col": 15
+            },
+            "Cardinal Distance": 35,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 16,
+                "Col": 2
+            },
+            "Goal": {
+                "Row": 16,
+                "Col": 22
+            },
+            "Cardinal Distance": 14,
+            "Diagonal Distance": 9,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 37,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 16,
+                "Col": 22
+            },
+            "Cardinal Distance": 16,
+            "Diagonal Distance": 8,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 8,
+                "Col": 35
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 21
+            },
+            "Cardinal Distance": 47,
+            "Diagonal Distance": 11,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 17,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 25
+            },
+            "Cardinal Distance": 17,
+            "Diagonal Distance": 8,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 2,
+                "Col": 36
+            },
+            "Goal": {
+                "Row": 35,
+                "Col": 27
+            },
+            "Cardinal Distance": 64,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 33,
+                "Col": 18
+            },
+            "Goal": {
+                "Row": 14,
+                "Col": 11
+            },
+            "Cardinal Distance": 20,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 14,
+                "Col": 12
+            },
+            "Goal": {
+                "Row": 37,
+                "Col": 34
+            },
+            "Cardinal Distance": 23,
+            "Diagonal Distance": 14,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 30,
+                "Col": 14
+            },
+            "Goal": {
+                "Row": 25,
+                "Col": 21
+            },
+            "Cardinal Distance": 12,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 9,
+                "Col": 28
+            },
+            "Goal": {
+                "Row": 37,
+                "Col": 37
+            },
+            "Cardinal Distance": 19,
+            "Diagonal Distance": 14,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 6,
+                "Col": 35
+            },
+            "Goal": {
+                "Row": 22,
+                "Col": 34
+            },
+            "Cardinal Distance": 11,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 27,
+                "Col": 6
+            },
+            "Goal": {
+                "Row": 21,
+                "Col": 34
+            },
+            "Cardinal Distance": 28,
+            "Diagonal Distance": 13,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 25,
+                "Col": 1
+            },
+            "Goal": {
+                "Row": 3,
+                "Col": 29
+            },
+            "Cardinal Distance": 22,
+            "Diagonal Distance": 14,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 13,
+                "Col": 4
+            },
+            "Goal": {
+                "Row": 18,
+                "Col": 22
+            },
+            "Cardinal Distance": 17,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 36,
+                "Col": 25
+            },
+            "Goal": {
+                "Row": 8,
+                "Col": 21
+            },
+            "Cardinal Distance": 28,
+            "Diagonal Distance": 9,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 14,
+                "Col": 22
+            },
+            "Goal": {
+                "Row": 21,
+                "Col": 25
+            },
+            "Cardinal Distance": 22,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 37,
+                "Col": 7
+            },
+            "Goal": {
+                "Row": 25,
+                "Col": 15
+            },
+            "Cardinal Distance": 16,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 23,
+                "Col": 4
+            },
+            "Goal": {
+                "Row": 35,
+                "Col": 36
+            },
+            "Cardinal Distance": 26,
+            "Diagonal Distance": 19,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 37,
+                "Col": 37
+            },
+            "Goal": {
+                "Row": 12,
+                "Col": 28
+            },
+            "Cardinal Distance": 16,
+            "Diagonal Distance": 14,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 13,
+                "Col": 34
+            },
+            "Goal": {
+                "Row": 23,
+                "Col": 22
+            },
+            "Cardinal Distance": 16,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 20,
+                "Col": 20
+            },
+            "Goal": {
+                "Row": 18,
+                "Col": 31
+            },
+            "Cardinal Distance": 19,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 23,
+                "Col": 1
+            },
+            "Goal": {
+                "Row": 27,
+                "Col": 9
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 4,
+                "Col": 21
+            },
+            "Goal": {
+                "Row": 12,
+                "Col": 7
+            },
+            "Cardinal Distance": 14,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 31,
+                "Col": 12
+            },
+            "Goal": {
+                "Row": 28,
+                "Col": 20
+            },
+            "Cardinal Distance": 11,
+            "Diagonal Distance": 4,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 17,
+                "Col": 25
+            },
+            "Goal": {
+                "Row": 18,
+                "Col": 20
+            },
+            "Cardinal Distance": 4,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 28,
+                "Col": 17
+            },
+            "Goal": {
+                "Row": 1,
+                "Col": 11
+            },
+            "Cardinal Distance": 27,
+            "Diagonal Distance": 8,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 6,
+                "Col": 31
+            },
+            "Goal": {
+                "Row": 12,
+                "Col": 26
+            },
+            "Cardinal Distance": 43,
+            "Diagonal Distance": 7,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 1,
+                "Col": 31
+            },
+            "Goal": {
+                "Row": 37,
+                "Col": 23
+            },
+            "Cardinal Distance": 52,
+            "Diagonal Distance": 9,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 35,
+                "Col": 38
+            },
+            "Goal": {
+                "Row": 8,
+                "Col": 8
+            },
+            "Cardinal Distance": 37,
+            "Diagonal Distance": 20,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 4,
+                "Col": 22
+            },
+            "Goal": {
+                "Row": 32,
+                "Col": 20
+            },
+            "Cardinal Distance": 56,
+            "Diagonal Distance": 5,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 8,
+                "Col": 21
+            },
+            "Goal": {
+                "Row": 19,
+                "Col": 7
+            },
+            "Cardinal Distance": 23,
+            "Diagonal Distance": 11,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 36,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 13,
+                "Col": 34
+            },
+            "Cardinal Distance": 24,
+            "Diagonal Distance": 13,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 12,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 26,
+                "Col": 37
+            },
+            "Cardinal Distance": 20,
+            "Diagonal Distance": 12,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 17,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 3,
+                "Col": 22
+            },
+            "Cardinal Distance": 13,
+            "Diagonal Distance": 10,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 30,
+                "Col": 21
+            },
+            "Goal": {
+                "Row": 18,
+                "Col": 38
+            },
+            "Cardinal Distance": 27,
+            "Diagonal Distance": 13,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 26,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 6,
+                "Col": 23
+            },
+            "Cardinal Distance": 20,
+            "Diagonal Distance": 8,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 12,
+                "Col": 16
+            },
+            "Goal": {
+                "Row": 2,
+                "Col": 20
+            },
+            "Cardinal Distance": 12,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 30,
+                "Col": 28
+            },
+            "Goal": {
+                "Row": 36,
+                "Col": 38
+            },
+            "Cardinal Distance": 28,
+            "Diagonal Distance": 16,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 19,
+                "Col": 36
+            },
+            "Goal": {
+                "Row": 11,
+                "Col": 25
+            },
+            "Cardinal Distance": 21,
+            "Diagonal Distance": 3,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 10,
+                "Col": 36
+            },
+            "Goal": {
+                "Row": 4,
+                "Col": 6
+            },
+            "Cardinal Distance": 44,
+            "Diagonal Distance": 14,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 27,
+                "Col": 32
+            },
+            "Goal": {
+                "Row": 22,
+                "Col": 30
+            },
+            "Cardinal Distance": 3,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 7,
+                "Col": 4
+            },
+            "Goal": {
+                "Row": 8,
+                "Col": 27
+            },
+            "Cardinal Distance": 30,
+            "Diagonal Distance": 11,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 8,
+                "Col": 27
+            },
+            "Goal": {
+                "Row": 15,
+                "Col": 3
+            },
+            "Cardinal Distance": 21,
+            "Diagonal Distance": 12,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 23,
+                "Col": 36
+            },
+            "Goal": {
+                "Row": 8,
+                "Col": 16
+            },
+            "Cardinal Distance": 27,
+            "Diagonal Distance": 8,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 14,
+                "Col": 2
+            },
+            "Goal": {
+                "Row": 12,
+                "Col": 20
+            },
+            "Cardinal Distance": 12,
+            "Diagonal Distance": 6,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 18,
+                "Col": 11
+            },
+            "Goal": {
+                "Row": 13,
+                "Col": 11
+            },
+            "Cardinal Distance": 5,
+            "Diagonal Distance": 0,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 24,
+                "Col": 27
+            },
+            "Goal": {
+                "Row": 23,
+                "Col": 26
+            },
+            "Cardinal Distance": 0,
+            "Diagonal Distance": 1,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 16,
+                "Col": 9
+            },
+            "Goal": {
+                "Row": 30,
+                "Col": 22
+            },
+            "Cardinal Distance": 33,
+            "Diagonal Distance": 10,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 3,
+                "Col": 23
+            },
+            "Goal": {
+                "Row": 5,
+                "Col": 11
+            },
+            "Cardinal Distance": 10,
+            "Diagonal Distance": 2,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        },
+        {
+            "Map": 6,
+            "Start": {
+                "Row": 21,
+                "Col": 3
+            },
+            "Goal": {
+                "Row": 32,
+                "Col": 30
+            },
+            "Cardinal Distance": 26,
+            "Diagonal Distance": 22,
+            "Has Solution": true,
+            "Requires Visual Confirmation": false
+        }
+    ]
+}
